@@ -13,13 +13,17 @@
     <link rel="stylesheet" href="./css/common.css" />
   </head>
   <body>
-    <header id="header">
+    <header class="header">
       <a href="./index.html"><span class="logo-blue">WEB</span>STUDIO</a>
-      <nav>
-        <ul>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#features" class="nav-link">Features</a>
+          </li>
+          <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
         </ul>
       </nav>
       <address class="contacts">
@@ -38,87 +42,88 @@
       </address>
     </header>
     <main>
-      <section id="hero">
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="hero-btn">Order Service</button>
       </section>
-      <section id="features">
-        <h2>Our Features</h2>
-
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+      <section class="features">
+        <h2 class="features-title">Our Features</h2>
+        <ul class="features-list">
+          <li class="features-item">
+            <h3 class="features-subtitle">Strategy</h3>
+            <p class="features-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
 
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="features-item">
+            <h3 class="features-subtitle">Punctuality</h3>
+            <p class="features-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
 
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="features-item">
+            <h3 class="features-subtitle">Diligence</h3>
+            <p class="features-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
 
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="features-item">
+            <h3 class="features-subtitle">Technologies</h3>
+            <p class="features-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <section id="team">
-        <h2>Our Team</h2>
+
+      <section class="team-item">
+        <h2 class="team-subtitle">Our Team</h2>
 
         <ul class="team-list">
-          <li>
-            <img src="./imeges/team-1.jpg" alt="Mark Guerrero" width="264" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+          <li class="team-item">
+            <img src="./images/team-1.jpg" alt="Mark Guerrero" width="264" />
+            <h3 class="team-subtitle">Mark Guerrero</h3>
+            <p class="team-text">Product Designer</p>
           </li>
 
-          <li>
-            <img src="./imeges/team-2.jpg" alt="Tom Ford" width="264" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+          <li class="team">
+            <img src="./images/team-2.jpg" alt="Tom Ford" width="264" />
+            <h3 class="team-subtitle">Tom Ford</h3>
+            <p class="team-text">Frontend Developer</p>
           </li>
 
-          <li>
-            <img src="./imeges/team-3.jpg" alt="Camila Garcia" width="264" />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+          <li class="team">
+            <img src="./images/team-3.jpg" alt="Camila Garcia" width="264" />
+            <h3 class="team-text">Garcia</h3>
+            <p class="team-text">Marketing</p>
           </li>
 
-          <li>
-            <img src="./imeges/team-4.jpg" alt="Daniel Wilson" width="264" />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+          <li class="team">
+            <img src="./images/team-4.jpg" alt="Daniel Wilson" width="264" />
+            <h3 class="team-text">Daniel Wilson</h3>
+            <p class="team-text">UI Designer</p>
           </li>
         </ul>
       </section>
+
       <section id="portfolio">
         <h2>Our Portfolio</h2>
         <ul>
           <li>
-            <img src="./imeges/portfolio-1.jpg" alt="Banking App" width="360" />
+            <img src="./images/portfolio-1.jpg" alt="Banking App" width="360" />
             <h3>Banking App</h3>
             <p>App</p>
           </li>
           <li>
             <img
-              src="imeges/portfolio-2.jpg"
+              src="images/portfolio-2.jpg"
               alt="E-commerce Website"
               width="360"
             />
@@ -126,13 +131,13 @@
             <p>Marketing</p>
           </li>
           <li>
-            <img src="./imeges/portfolio-3.jpg" alt="Taxi " width="360" />
+            <img src="./images/portfolio-3.jpg" alt="Taxi " width="360" />
             <h3>Meditation App</h3>
             <p>App</p>
           </li>
           <li>
             <img
-              src="./imeges/portfolio-4.jpg"
+              src="./images/portfolio-4.jpg"
               alt="Social Media App"
               width="360"
             />
@@ -141,7 +146,7 @@
           </li>
           <li>
             <img
-              src="./imeges/portfolio-5.jpg"
+              src="./images/portfolio-5.jpg"
               alt="Social Media App"
               width="360"
             />
@@ -150,7 +155,7 @@
           </li>
           <li>
             <img
-              src="./imeges/portfolio-6.jpg"
+              src="./images/portfolio-6.jpg"
               alt="Social Media App"
               width="360"
             />
@@ -160,9 +165,11 @@
         </ul>
       </section>
     </main>
-    <footer id="footer">
-      <a href="./index.html"><span class="logo-blue">WEB</span>STUDIO</a>
-      <p>
+    <footer class="footer">
+      <a href="./index.html" class="logo footer-logo"
+        ><span class="logo-blue">WEB</span>STUDIO</a
+      >
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
