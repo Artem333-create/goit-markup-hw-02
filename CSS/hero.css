@@ -1,4 +1,19 @@
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-btn {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
 }
