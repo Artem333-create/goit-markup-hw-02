@@ -1,10 +1,20 @@
+.contacts {
+  font-style: normal;
+}
+
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
-  color: #2e2f42;
-  text-decoration: none;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+
+.header .logo {
+  color: #2e2f42;
+}
+
 .logo-blue {
   color: #4d5ae5;
 }
@@ -15,12 +25,18 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 
 .contact-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
 }
