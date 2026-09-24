@@ -4,21 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-
-    <!-- Шрифти -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
-    <!-- Стилі -->
-    <link rel="stylesheet" href="./css/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/blMBn4rGw5766cz5pxIql5ZHFVzQxLz156S5UKe5CEUU305F2rBU3nnygndT19/545Ww=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <a href="./index.html" class="logo"
         ><span class="logo-blue">WEB</span>STUDIO</a
       >
@@ -48,12 +50,14 @@
         </ul>
       </address>
     </header>
+
     <main>
-      <section class="hero">
+      <section id="hero" class="hero">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button" class="hero-btn">Order Service</button>
       </section>
-      <section class="features">
+
+      <section id="features" class="features">
         <h2 class="features-title">Our Features</h2>
         <ul class="features-list">
           <li class="features-item">
@@ -90,7 +94,7 @@
         </ul>
       </section>
 
-      <section class="team">
+      <section id="team" class="team">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
           <li class="team-item">
@@ -122,7 +126,7 @@
               alt="Camila Garcia"
               width="264"
             />
-            <h3 class="team-subtitle">Garcia</h3>
+            <h3 class="team-subtitle">Camila Garcia</h3>
             <p class="team-text">Marketing</p>
           </li>
 
@@ -134,7 +138,7 @@
               width="264"
             />
             <h3 class="team-subtitle">Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <p class="team-text">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -149,71 +153,64 @@
               width="360"
               class="portfolio-img"
             />
-
             <h3 class="portfolio-subtitle">Banking App</h3>
             <p class="portfolio-text">App</p>
           </li>
           <li class="portfolio-item">
             <img
-              src="images/portfolio-2.jpg"
-              alt="E-commerce Website"
+              src="./images/portfolio-2.jpg"
+              alt="Cashless Payment"
               width="360"
               class="portfolio-img"
             />
-
             <h3 class="portfolio-subtitle">Cashless Payment</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
-
           <li class="portfolio-item">
             <img
               src="./images/portfolio-3.jpg"
-              alt="Taxi "
+              alt="Meditation App"
               width="360"
               class="portfolio-img"
             />
             <h3 class="portfolio-subtitle">Meditation App</h3>
             <p class="portfolio-text">App</p>
           </li>
-
           <li class="portfolio-item">
             <img
               src="./images/portfolio-4.jpg"
-              alt="Social Media App"
+              alt="Taxi Service"
               width="360"
               class="portfolio-img"
             />
-
             <h3 class="portfolio-subtitle">Taxi Service</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
           <li class="portfolio-item">
             <img
               src="./images/portfolio-5.jpg"
-              alt="Social Media App"
+              alt="Screen Illustrations"
               width="360"
               class="portfolio-img"
             />
-
             <h3 class="portfolio-subtitle">Screen Illustrations</h3>
             <p class="portfolio-text">Design</p>
           </li>
-
           <li class="portfolio-item">
             <img
               src="./images/portfolio-6.jpg"
-              alt="Social Media App"
+              alt="Online Courses"
               width="360"
               class="portfolio-img"
             />
-
             <h3 class="portfolio-subtitle">Online Courses</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="footer">
+
+    <footer id="footer" class="footer">
       <a href="./index.html" class="logo footer-logo"
         ><span class="logo-blue">WEB</span>STUDIO</a
       >
